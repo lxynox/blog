@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[Personal blog powered by Gatsby]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 17 Apr 2018 04:41:32 GMT</lastBuildDate><item><title><![CDATA[Bottom Up]]></title><description><![CDATA[Background I’ve been looking for a new job for quite while, it’s not as smooth as i was first expected. In fact, it’s way worse than i could…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//Bottom-Up/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//Bottom-Up/</guid><pubDate>Wed, 05 Apr 2017 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Background&lt;/h1&gt;
+&lt;p&gt;I’ve been looking for a new job for quite while, it’s not as smooth as i was first expected. In fact, it’s way worse than i could imagine,
+and might be another one of the best lessons i’ve learned so far.&lt;/p&gt;
+&lt;h1&gt;Reason&lt;/h1&gt;
+&lt;p&gt;The difficulty comes from lacking of understanding of:&lt;/p&gt;
+&lt;p&gt;a) the hiring process starting from the scanning of resume&lt;br&gt;
+b) measurements used to justify qualified candidates&lt;br&gt;
+c) the importance of cultural fit during typical software engineer interviews&lt;br&gt;
+Each parts play their own role across the whole process, you’re gonna pay tuition if underestimated any of them.&lt;/p&gt;
+&lt;h1&gt;Emotion&lt;/h1&gt;
+&lt;p&gt;It’s kinda hard to accurately capture all the feelings. Angry, frustration and self-skeptical.&lt;/p&gt;
+&lt;h1&gt;Action&lt;/h1&gt;
+&lt;p&gt;Now, i’m right at the &lt;em&gt;bottom&lt;/em&gt; of page, already nothing to lose.&lt;/p&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;Good reading materials i came across those days:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=11579757&quot;&gt;Hiring Is Broken – My interview experience in the tech industry&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.quora.com/What-is-the-best-career-advice-for-a-software-developer-to-earn-a-higher-salary&quot;&gt;What is the best career advice for a software developer to earn a higher salary?&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[DIY mobile desktop]]></title><description><![CDATA[Intro Have your ever thought of  D.I.Y  your iphone desktop? Of course, you did(only if you’re not a iPhone user). It’s stupid simple, just…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//DIY-mobile-desktop/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//DIY-mobile-desktop/</guid><pubDate>Tue, 15 Nov 2016 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Intro&lt;/h1&gt;
+&lt;p&gt;Have your ever thought of &lt;strong&gt;D.I.Y&lt;/strong&gt; your iphone desktop? Of course, you did(only if you’re not a iPhone user). It’s stupid simple, just drag &amp;#x26; drop
+your app icons. Have you ever thought of organize your mobile apps into archives? Probably, you did(if you don’t want to spend &lt;em&gt;HOURS&lt;/em&gt; finding
+an app. Have you ever thought of using &lt;em&gt;emoji&lt;/em&gt; to be the only title of your organized archives? Probably not, if not here is something you may give a try!&lt;/p&gt;
+&lt;h1&gt;Screenshot&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://lxynox.github.io/gitcloud/files/img/blog/iphone-layout-update.PNG&quot; alt=&quot;my iphone7 desktop&quot;&gt;&lt;/p&gt;
+&lt;h1&gt;Bye&lt;/h1&gt;
+&lt;p&gt;When talking about customizing/hacking iphone, google usually sends us to &lt;code class=&quot;language-text&quot;&gt;iphone jailbreak&lt;/code&gt;, but there is definitely some technical bars/safety concerns for many users to do that. As iOS is &lt;a href=&quot;https://simple.wikipedia.org/wiki/Closed_source&quot;&gt;closed source &lt;/a&gt;, developers tend to do different hacks to acquire higher permission for more control, but we can always find some useful tricks without too much hassle. Give the &lt;code class=&quot;language-text&quot;&gt;assistive touch&lt;/code&gt; a look if you prefer single hand operation on your mobile.&lt;/p&gt;
+&lt;p&gt;Have fun and rock with your iPhone!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[create 2d array in js for fun]]></title><link>https://gatsbyjs.github.io/gatsby-starter-blog//create-2D-array-in-js/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//create-2D-array-in-js/</guid><pubDate>Tue, 08 Nov 2016 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// create a new 2d array in javascript&lt;/span&gt;
+ 
+&lt;span class=&quot;token comment&quot;&gt;// 1. unfixed width &amp;amp; height&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// using [] literal&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; new2Darr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+new2Darr&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+new2Darr&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// alternatively, you can do this in this way,&lt;/span&gt;
+new2Darr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+
+&lt;span class=&quot;token comment&quot;&gt;// 2. fixed width &amp;amp; height&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// assume array&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// width = rows&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// height = cols&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; rows &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; cols &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// a. Do it in java way&lt;/span&gt;
+
+new2Darr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; rows&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; x&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; new1Darr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; 
+  &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; y &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; cols&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; y &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; y&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    new1Darr&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;undefined&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; 
+  new2Darr&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;new1Darr&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// b. Obviously, with ES6 you can do this more elegantly❔&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// Don&apos;t forget the 3 immutable functions derived from Functional Programming&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// map for rescue&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; new2Darr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;val &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// or do it in this way&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; new2Darr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Array&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;prototype&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fill&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[some words about vim]]></title><description><![CDATA[Disclaimer: I am  NOT  a vim veteran for sure. This article ONLY represents personal flavour, thus has nothing to do with any official…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//some-words-about-vim/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//some-words-about-vim/</guid><pubDate>Fri, 09 Sep 2016 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;Disclaimer: I am &lt;em&gt;NOT&lt;/em&gt; a vim veteran for sure. This article ONLY represents personal flavour, thus has nothing to do with any official guides.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/img/posts/2016-09-08/1.png&quot; alt=&quot; vim logo &quot;&gt;&lt;/p&gt;
+&lt;h3&gt;My editor adventure🛤&lt;/h3&gt;
+&lt;p&gt;I’ve used a couple of different editors as i am kinda of person who, like anyone else, cannot say “No” to new and fancy stuffs. Here is a few editors i have ever used, from “very” past to “most” recent.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eclipse: The “goto” editor for most java beginners, becomes annoying as it’s so heavy and slow.🙃&lt;/li&gt;
+&lt;li&gt;Notepad++: Handy to use, fast and lightweight compared to IDEs but has no plugin system until v.3.10.🌧&lt;/li&gt;
+&lt;li&gt;Sublime Text2: Powerful, elegant and extensible but manual configuration for plugins raised its bar of use.🕶&lt;/li&gt;
+&lt;li&gt;Atom: Open source community kids, inherit many cool features from Sublime Text but more handy to configure. Maybe the editor for tomorrow but not today.🚀&lt;/li&gt;
+&lt;li&gt;Vim: Some mystery that you can hardly know every face of it.🌌&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is definitely some else on my Todo list:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; Emacs: How can you miss something that can brew a cup of coffee 🍵&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I switched to Vim half year ago, from Atom. I did know some very basic movements (like &lt;code class=&quot;language-text&quot;&gt;h, l, j, k&lt;/code&gt;) in vim, but it’s just too much of pain of me to giving up something (consider tens of plugins i installed on Atom) that i’m already familiar with, and start totally from scratch. It was inspired by my instructor during my first internship, and as a result, he opens a new world for me.&lt;/p&gt;
+&lt;h3&gt;Vim is tough, yeah, it is!&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/posts/2016-09-08/3.png&quot; alt=&quot; Learning curve of text editors &quot;&gt;&lt;/p&gt;
+&lt;p&gt;From the learning curve about we may easily find that most text editors (besides vim &amp;#x26; emacs) have a relatively very smooth learning curve, it is also something most users would expect for - investing decent amount of time and then master it.&lt;/p&gt;
+&lt;p&gt;i’m not an Emacs user, thus can never tell and understand the visualization of its learning curve, but admittedly, it’s really cool. However, for Vim, i totally agree what the above picture says. It is very hard at the very beginning, retains tricky for many intermediates, and may goes up till masters. Not to mean to discourage/scare away the beginners, it is &lt;strong&gt;actually bringing down&lt;/strong&gt; your productivity in short term (at least, the very few months since started), it’s rather the truth, unlike some people blindly bloating the great power vim generates in the long run, learning anything new has its own cost. Learn to evaluate the tradeoffs of the cost and payback is rather important.&lt;/p&gt;
+&lt;p&gt;The high bar of using Vim is more obvious for beginners, unexperienced users have to spend time with basic motions, they might having problem with successfully editing, saving, and quitting in the program, they might wonder where vimrc hibernates in their file system.&lt;/p&gt;
+&lt;p&gt;But after several months of use, when some really handy plugins get installed, your vimrc becomes bloated and needs to be maintained, and you did a lot of mappings as shorthand for various commands, vim is still not easy at all. It might still be your daily routine to learn some new tricks and put them into practise.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/posts/2016-09-08/2.png&quot; alt=&quot; vim joke &quot;&gt;&lt;/p&gt;
+&lt;p&gt;It’s obvious, even two years of researching can’t promise you to be able to open and quit vim.😜&lt;/p&gt;
+&lt;h3&gt;Why Vim🤔&lt;/h3&gt;
+&lt;p&gt;There’re still many questions surrounds the technical world - “Why Vim?“. One answer on StackOverflow describes it quite well:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Can i live without Vim?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sure, easily!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Is it useful?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yes, it is!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here is a few personal reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;vim is cool😎&lt;/li&gt;
+&lt;li&gt;vim is a good reflection of personal taste, vimrc gives you the freedom to distinguish yourself&lt;/li&gt;
+&lt;li&gt;vim is unavoidable in most Linux/Unix systems, it’s also many 3-party programs default text editor like Git.&lt;/li&gt;
+&lt;li&gt;vim is lightweight, extensible, hackable (use vimscript)&lt;/li&gt;
+&lt;li&gt;vim gives you ultimate productivity (others say so ☺️)&lt;/li&gt;
+&lt;li&gt;vim has a strong community 👲👳👮👷&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For me, vim is nothing more than a Text Editor. Yeah, just a text editor. You can easily extend its functionality to do more things with plugins as it’s highly extensible. But it’s highly opinionated, it has its own DSL (aka. vimscript), users configure and extend it in its own way, a text editor’s way (If you want something more, Emacs might be the right candidate to choose). However, the fact that vim is a pure text editor doesn’t bring its reputation down, instead, it is where vim shines, it focuces on its job and excels. Vim &lt;strong&gt;PIN&lt;/strong&gt;s your fingers on the keyboard, it’s proved to be the most efficient way of text editing both emotionally and physically.&lt;/p&gt;
+&lt;p&gt;Once we’re clear that it’s nothing more than a really powerful developer tool, we may find it easier to decide whether to use vim or not. For most server-side(database/network administrator, backend api developer) engineer, vim is something you might have to deal with in you day-to-day life. But for most front-end engineer, they focus more on the design and interaction aspects of the web application and doesn’t have any hard dependencies on system level tools, vim is definitely an optional choice. And actually, as i’ve noticed so far, very large portion of the front-end engineers are great fan of Sublime Text which fits their requirements properly.&lt;/p&gt;
+&lt;h3&gt;Learning tutorial / good references📙&lt;/h3&gt;
+&lt;p&gt;First and foremost, the Doc. The manual is always the right place to go when having question or confusions. Simply typing &lt;code class=&quot;language-text&quot;&gt;:h (or :help) xxx&lt;/code&gt; you will get your &lt;code class=&quot;language-text&quot;&gt;xxx&lt;/code&gt; searched in vim’s built-in manual.&lt;/p&gt;
+&lt;p&gt;The Vim’s wiki is another good place to go. I, personally find &lt;a href=&quot;http://vim.wikia.com/wiki/Best_Vim_Tips&quot;&gt; Best vim tips from Vim Wiki &lt;/a&gt; quite useful.&lt;/p&gt;
+&lt;p&gt;Another thing, is reading others vimrc and share yours(if possible) more often. There’s a good place to go, &lt;a href=&quot;http://dotfiles.github.io&quot;&gt; github dotfile &lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Space or Tab in Vim]]></title><description><![CDATA[Reason for this post I, personally, have been struggled with this issue for some time. I am kinda person who has a really poor memory, but i…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//tab-vs-space-in-vim/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//tab-vs-space-in-vim/</guid><pubDate>Thu, 08 Sep 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/img/posts/2016-09-07/1.png&quot; alt=&quot;tab vs space sample&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;Reason for this post&lt;/h2&gt;
+&lt;p&gt;I, personally, have been struggled with this issue for some time. I am kinda person who has a really poor memory, but i am pretty sure i’ve googled it for at least twice, and each time, has spent decent amount of time on researching.&lt;/p&gt;
+&lt;p&gt;I really missed the old days When i was a (Notepad++❓❓❓Sublime Text2❗️❓or Atom❗️❗️) user who has a spirit of sticking to the original (default settings). But once you fell into some other “Linux/Unix born” 👻 editors, like Vi/Vim or Emacs, you normally will only have 2 choice, endless of suffering or save yourself.
+&lt;img src=&quot;/img/posts/2016-09-07/2.png&quot; alt=&quot;tab vs space comic&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;Advantage vs Disadvantage&lt;/h2&gt;
+&lt;h3&gt;Space beats Tab&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Space is widely used for aligning text, text alignment and formatting is useful especially for annotation and documentation.&lt;/li&gt;
+&lt;li&gt;Space share the same look across all different platforms while tab might look very different&lt;/li&gt;
+&lt;li&gt;Some languages enforces/strictly recommends stylish rules, like python(4 spaces indention), javascript(2 spaces indention), java(mostly 4 spaces indention) etc.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Tab beats Space&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Tab is highly customizable they can be changed to arbitrary values(3,4,8 etc) as the reader wants/used to.&lt;/li&gt;
+&lt;li&gt;It’s obvious that tab helps save a lot of spaces when it comes to editing large files with multiple lines.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Vim tab settings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;expandtab&lt;/code&gt;: applies to &lt;strong&gt;write&lt;/strong&gt; mode only. Set/convert vim’s &lt;code class=&quot;language-text&quot;&gt;&amp;lt;tab&amp;gt;&lt;/code&gt; to &lt;code class=&quot;language-text&quot;&gt;&amp;lt;space&amp;gt;&lt;/code&gt; in &lt;strong&gt;insertion&lt;/strong&gt; mode. If set, it implies that that only space will be used for insertion all the time.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;ts&lt;/code&gt;: aka. tabstop, applies to &lt;strong&gt;read&lt;/strong&gt; mode only. It denotes (# of columns) the &lt;code class=&quot;language-text&quot;&gt;&amp;lt;tab&amp;gt;&lt;/code&gt; character visually displays/appears in vim, by default it’s 8 in most Unix/Linux Systems and &lt;strong&gt;NOT&lt;/strong&gt; recommended to be changed for some printing and cross platform reasons.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;sts&lt;/code&gt;: aka. softtabstop, applies to &lt;strong&gt;write&lt;/strong&gt; mode. It represents , in &lt;code class=&quot;language-text&quot;&gt;insertion&lt;/code&gt; mode, that pressing a &lt;code class=&quot;language-text&quot;&gt;&amp;lt;tab&amp;gt;&lt;/code&gt; key (# of columns) will be inserted.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;if sts &gt; ts: vim uses as many &lt;code class=&quot;language-text&quot;&gt;&amp;lt;tab&amp;gt;&lt;/code&gt; as possible and fill the rest with &lt;code class=&quot;language-text&quot;&gt;&amp;lt;space&amp;gt;&lt;/code&gt; to represents a &lt;code class=&quot;language-text&quot;&gt;&amp;lt;tab&amp;gt;&lt;/code&gt; press in &lt;code class=&quot;language-text&quot;&gt;insertion&lt;/code&gt; mode, for eg.setlocal sts = 20 ts = 8, then vim uses 2 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;tab&amp;gt;&lt;/code&gt; + 4 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;space&amp;gt;&lt;/code&gt; to represent a &lt;code class=&quot;language-text&quot;&gt;&amp;lt;tab&amp;gt;&lt;/code&gt; press.&lt;/li&gt;
+&lt;li&gt;elif sts &amp;#x3C; ts: vim fills (sts)# of &lt;code class=&quot;language-text&quot;&gt;&amp;lt;space&amp;gt;&lt;/code&gt; when pressing a &lt;code class=&quot;language-text&quot;&gt;&amp;lt;tab&amp;gt;&lt;/code&gt; in &lt;code class=&quot;language-text&quot;&gt;insertion&lt;/code&gt; mode.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;sw&lt;/code&gt;: aka. shiftwidth, denotes # of columns &lt;code class=&quot;language-text&quot;&gt;&amp;gt;&amp;gt;&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;&amp;lt;&amp;lt;&lt;/code&gt; equals to.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;stab&lt;/code&gt;: aka. smarttab, it tells vim to use &lt;code class=&quot;language-text&quot;&gt;sw&lt;/code&gt; for indention at the beginning of each line, whereas ‘tabstop’ and ‘softtabstop’ are used elsewhere.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Some reference settings&lt;/h3&gt;
+&lt;p&gt;From Vim wiki:&lt;/p&gt;
+&lt;p&gt;Create file html.vim(~/.vim/after/ftplugin/html.vim) with contents:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;setlocal shiftwidth=2
+setlocal tabstop=2&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;and file python.vim with contents:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;setlocal expandtab
+setlocal shiftwidth=4
+setlocal softtabstop=4&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;or if &lt;code class=&quot;language-text&quot;&gt;.vimrc&lt;/code&gt; is preferred,&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;autocmd FileType html setlocal shiftwidth=2 tabstop=2
+autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;My personal funky &lt;code class=&quot;language-text&quot;&gt;.vimrc&lt;/code&gt; settings&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;autocmd FileType * setlocal noexpandtab tabstop=4 shiftwidth=4 smarttab
+autocmd BufNewFile,BufRead *.py setlocal expandtab tabstop=4 shiftwidth=4
+autocmd BufNewFile,BufRead *.js setlocal expandtab shiftwidth=2 softtabstop=2&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;In fact, the debate among space or tab is just like single quote or double quote, semicolon or nosemicolon. It’s mainly a stylish problem which heavily relies on personal taste. Kinda like vim or emacs, years of debate will not help bring them to an end. From my personal shallow intuitive perspective, i will just follow something i am in favor of. As i’ve been using &lt;code class=&quot;language-text&quot;&gt;&amp;lt;space&amp;gt;&lt;/code&gt; over &lt;code class=&quot;language-text&quot;&gt;&amp;lt;tab&amp;gt;&lt;/code&gt; for some time(notice, i’m a js citizen, to be more precise, a js newbie👶), i find it could be fun to switch to the tribe of &lt;code class=&quot;language-text&quot;&gt;&amp;lt;tab&amp;gt;&lt;/code&gt; for a while.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The app i leave ⌘ + space shortcuts for: Alfred]]></title><description><![CDATA[Background This keystroke binding is so frequently used under Mac OSX that most users leave them for their favorite / dependent tool, which…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//why-alfred/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//why-alfred/</guid><pubDate>Tue, 23 Aug 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/img/posts/2016-06-23/Alfred_icon.png&quot; alt=&quot; Alfred Icon &quot;&gt;&lt;/p&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;This keystroke binding is so frequently used under Mac OSX that most users leave them for their favorite / dependent tool, which in most cases, could OR even supposed to be &lt;code class=&quot;language-text&quot;&gt;Spotlight Search&lt;/code&gt;. It’s Apple’s built-in default application for searching. Fast, system-wide and seamless integration with native apps like &lt;strong&gt;&lt;em&gt;Safari&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;Maps&lt;/em&gt;&lt;/strong&gt; earns it huge group of audiences. I used to be one of those audiences until i met with something new called &lt;strong&gt;&lt;em&gt;Alfred&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;About it&lt;/h2&gt;
+&lt;p&gt;From the official site of &lt;a href=&quot;https://www.alfredapp.com/&quot;&gt; Alfred &lt;/a&gt;, it’s introduced as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Alfred is an award-winning app for Mac OS X which boosts your efficiency with hotkeys, keywords, text expansion and more. Search your Mac and the web, and be more productive with custom actions to control your Mac.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;p&gt;It’s a tunning good tool which can significantly promote your productivity and make your lives much easier. It’s shipped with abundent features, just to name a few:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#search-and-browse&quot;&gt; Search and browse &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#themes-and-customize&quot;&gt; Themes and customize &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#integration-with-apps&quot;&gt; Integration with apps &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#conclusion&quot;&gt; Remote access support &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Search and browse&lt;/h3&gt;
+&lt;p&gt;Generally it does what spotlight search do, may not be as fast and the returned result might not contain so much info but it’s still powerful enough to be used as a searching utility.
+&lt;img src=&quot;/img/posts/2016-06-23/search_preference.png&quot; alt=&quot; alfred search preference capture &quot;&gt;
+&lt;img src=&quot;/img/posts/2016-06-23/spotlight_preference.png&quot; alt=&quot; spolight preference capture &quot;&gt;
+From the above settings/preference of search page, we may find that both app give us the option to refine the searching results, the more check boxes we check, the more path they will be cover and thus at the cost of responsiveness. However, compared to spotlight search, alfred offers its user the freedom to choose which scope to search which by default cannot be changed by spotlight search (the privacy option can only limit search scope but not expand). To use spotlight, we users, have no idea whether the search scope is large enough to cover our target. &lt;em&gt;This is a predefined feature of spotlight search, even though it has a good enough knowledge about the OSX folder structure, doesn’t mean it should cut down the users the right to customize their preferences&lt;/em&gt;.&lt;/p&gt;
+&lt;h3&gt;Themes and customize&lt;/h3&gt;
+&lt;p&gt;From the little detail above, we may find that it seems that alfred, compared to adding some predefined behavior, it prefers to give its user options to choose more. The answer is: Yes, it is!
+&lt;img src=&quot;/img/posts/2016-06-23/theme_preference.png&quot; alt=&quot; alfred themes preference capture &quot;&gt;
+By default, alfred will give you 5-6 default themes to choose from. But if you’re kind of person who like to customize things, especially someone who has to stick to computer every day and wants some fresh appearance quite often, alfred is there. &lt;code class=&quot;language-text&quot;&gt;We can change its color, font, borders and toggle its icon etc&lt;/code&gt;. Its basic appearance is neat and simple without any redundencies, and most importantly, it’s &lt;strong&gt;customizable&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;Integration with apps&lt;/h3&gt;
+&lt;p&gt;Just as spotlight search can integrate with Safari, Maps, alfred can easily integrate with many OSX apps as well. &lt;code class=&quot;language-text&quot;&gt;It can help you control your itunes music, manage your emails, set timers and reminders and even running some shell commands&lt;/code&gt;, just to name a few. It can bring you towards everywhere beyond your imagination and serves as the killing feature of alfred and i’ll definitely spend more time talking about it later.&lt;/p&gt;
+&lt;h3&gt;Remote access support&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/posts/2016-06-23/remote.png&quot; alt=&quot; Remote iOS app capture &quot;&gt;
+Afred Remote is an iOS app running on obile dposts/evice and can be used to manage your PC remotely. &lt;code class=&quot;language-text&quot;&gt;With a single touch on your iOS devices to control many Alfred 2 actions on your Mac, replacing your hard-to-remember hotkeys and keywords. Launch apps, files and websites, control your music, keep useful text snippets at hand and boost your productivity by connecting Remote to your favourite Alfred 2 workflows&lt;/code&gt;. It’s awesome, isn’t it?&lt;/p&gt;
+&lt;h2&gt;Workflows&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Here comes the big role!&lt;/strong&gt; Without workflows, alfred will fall back to common apps with a few small design that shine, and will inevitably like many apps, fade away quickly. The workflows make it different, it’s the killing feature of alfred making it second to none of its competitors.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/posts/2016-06-23/weather_workflow.png&quot; alt=&quot; Weather workflow capture &quot;&gt;
+What does workflow mean？To me, it’s just the synonym of plugins / extensions to Firefox / Chrome, or 3rd party packages to some text editor like Sublime Text / Atom. Apple has its own workflow generotor called Automator which enables technical users to write JXA (JavaScript for Automation) or AppleScripts to run on top of.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/posts/2016-06-23/bookmark_workflow.png&quot; alt=&quot; Chrome Bookmark workflow capture &quot;&gt;
+Alfred did the similar thing, it built an ecosystem along with highly extensible interface for other developers to create customizable workflows running within the context. What can those workflows do? It depends on the developers and wherever their idea can reach. Unlike many independent desktop applications those workflows work more closely towards micro-services, their file size is tiny, their consumed system resources is limited and their responses are fast. They mainly fetch useful information through communications with other apple apps / services, and presents the result back in the similar alfred way.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/posts/2016-06-23/email_workflow.png&quot; alt=&quot; Email workflow capture &quot;&gt;
+Importantly, those workflows has community support, which makes them more robust and live. Most of them can be found on Alfred’s official site and i’ll just list a few of my favorites below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.alfredforum.com/topic/193-weather-workflow-with-conditions-and-forecast/&quot;&gt; Weather Workflow &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.packal.org/workflow/mailapp-search&quot;&gt; Mail.app Search &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.packal.org/workflow/chrome-bookmarks-0&quot;&gt; Chrome Bookmarks &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/carlosgaldino/alfred-emoji-workflow&quot;&gt; Emoji Workflow &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/gharlan/alfred-github-workflow&quot;&gt; Github Workflow &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.alfredapp.com/blog/productivity/dash-quicker-api-documentation-search/&quot;&gt; Dash &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;…&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/posts/2016-06-23/emoji_workflow.png&quot; alt=&quot; Emoji workflow capture &quot;&gt;
+&lt;code class=&quot;language-text&quot;&gt;There&amp;#39;re just too many to list, to see how well they&amp;#39;re, just explore them!&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;There’re so many great and tunning software tools in Mac’s world, and Alfred must be one of them. It’s the time of software explosion, different types of new software rapidly emerging, iterating and disappearing. Choose the right one is more like finding the gems from rocks. While the future of Spotlight Search has the giant Apple standing behind, the fate of Alfred going forward has raised a lot of concerns, the creator of Alfred gave his answer:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What you have to remember is that Spotlight’s primary objective is to search your files and a small handful of pre-determined web sources. Meanwhile, Alfred’s primary objective is to make you more productive on your Mac with exceptional and powerful features like Clipboard History, System commands, iTunes Mini Player, 1Password bookmarks, Terminal integration, fully bespoke and customisable user-created workflows and much, much more.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In fact, we’ve been working on some pretty special and truly amazing new features that you’ll hear about over the next few months. We think these will blow your mind and can’t wait to tell you more.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item></channel></rss>
