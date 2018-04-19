@@ -1,50 +1,58 @@
 {
   "assetsByChunkName": {
-    "path---tab-vs-space-in-vim": [
-      "path---tab-vs-space-in-vim-cf05e5d908e1675a01b0.js",
-      "path---tab-vs-space-in-vim-cf05e5d908e1675a01b0.js.map"
-    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-7ac97eab399c3cd2bbe6.js",
-      "component---src-pages-index-js-7ac97eab399c3cd2bbe6.js.map"
+      "component---src-pages-index-js-a3dc426717f14cdb8250.js",
+      "component---src-pages-index-js-a3dc426717f14cdb8250.js.map"
+    ],
+    "path---blog-posts-diy-mobile-desktop": [
+      "path---blog-posts-diy-mobile-desktop-e531d2eb955a5ce95995.js",
+      "path---blog-posts-diy-mobile-desktop-e531d2eb955a5ce95995.js.map"
+    ],
+    "path---blog": [
+      "path---blog-4c5e64cd1b827aedaff5.js",
+      "path---blog-4c5e64cd1b827aedaff5.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---blog-posts-why-alfred": [
+      "path---blog-posts-why-alfred-4841b347c5d17c34aec5.js",
+      "path---blog-posts-why-alfred-4841b347c5d17c34aec5.js.map"
+    ],
+    "path---blog-posts-some-words-about-vim": [
+      "path---blog-posts-some-words-about-vim-c14a86e1aaf625bcf7e6.js",
+      "path---blog-posts-some-words-about-vim-c14a86e1aaf625bcf7e6.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-3a67eaf597baebb246e7.js",
-      "component---src-templates-blog-post-js-3a67eaf597baebb246e7.js.map"
+      "component---src-templates-blog-post-js-ef2bf6a588ee5a19d32e.js",
+      "component---src-templates-blog-post-js-ef2bf6a588ee5a19d32e.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-6a92b7b58352793973c0.js",
-      "component---src-layouts-index-js-6a92b7b58352793973c0.js.map"
-    ],
-    "path---diy-mobile-desktop": [
-      "path---diy-mobile-desktop-f1027ea369905845fe20.js",
-      "path---diy-mobile-desktop-f1027ea369905845fe20.js.map"
+      "component---src-layouts-index-js-b034b8f71b9284071699.js",
+      "component---src-layouts-index-js-b034b8f71b9284071699.js.map"
     ],
     "path---index": [
-      "path---index-4fe70fe7a8cf0e640049.js",
-      "path---index-4fe70fe7a8cf0e640049.js.map"
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
-    "commons": [
-      "commons-8d23a67706fd3e385a4d.js",
-      "build-js-styles.css",
-      "commons-8d23a67706fd3e385a4d.js.map",
-      "build-js-styles.css.map"
+    "path---blog-posts-tab-vs-space-in-vim": [
+      "path---blog-posts-tab-vs-space-in-vim-7c6b6653031798ac8c2b.js",
+      "path---blog-posts-tab-vs-space-in-vim-7c6b6653031798ac8c2b.js.map"
     ],
-    "path---why-alfred": [
-      "path---why-alfred-be260b468096b642e913.js",
-      "path---why-alfred-be260b468096b642e913.js.map"
+    "commons": [
+      "commons-5abda8a18ae3cb899433.js",
+      "build-js-styles.css",
+      "commons-5abda8a18ae3cb899433.js.map",
+      "build-js-styles.css.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -54,27 +62,23 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---bottom-up": [
-      "path---bottom-up-552854f5db18851ac883.js",
-      "path---bottom-up-552854f5db18851ac883.js.map"
+    "component---src-pages-blog-js": [
+      "component---src-pages-blog-js-d53d4b4b75c736253b4d.js",
+      "component---src-pages-blog-js-d53d4b4b75c736253b4d.js.map"
     ],
     "app": [
-      "app-d45f7a2cde9cfcf67e0b.js",
+      "app-60106b5301757b863359.js",
       "build-js-styles.css",
-      "app-d45f7a2cde9cfcf67e0b.js.map",
+      "app-60106b5301757b863359.js.map",
       "build-js-styles.css.map"
-    ],
-    "path---some-words-about-vim": [
-      "path---some-words-about-vim-346a0dc37306cc892924.js",
-      "path---some-words-about-vim-346a0dc37306cc892924.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---create-2-d-array-in-js": [
-      "path---create-2-d-array-in-js-e9e7346ab452780556b5.js",
-      "path---create-2-d-array-in-js-e9e7346ab452780556b5.js.map"
+    "path---blog-posts-bottom-up": [
+      "path---blog-posts-bottom-up-a1d12b8bb17ee8ffd7fd.js",
+      "path---blog-posts-bottom-up-a1d12b8bb17ee8ffd7fd.js.map"
     ]
   }
 }
