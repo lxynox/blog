@@ -2,17 +2,18 @@
 layout: post
 title:  "Space or Tab in Vim"
 date: 2016-09-08
+cover: "index.png"
 tags: ["vim", "space vs tab", "convention"]
 ---
 
-![tab vs space sample](/img/posts/2016-09-07/1.png)
+![tab vs space sample](tab_space_both.png)
 
 ## Reason for this post
 
 I, personally, have been struggled with this issue for some time. I am kinda person who has a really poor memory, but i am pretty sure i've googled it for at least twice, and each time, has spent decent amount of time on researching.
 
 I really missed the old days When i was a (Notepad++❓❓❓Sublime Text2❗️❓or Atom❗️❗️) user who has a spirit of sticking to the original (default settings). But once you fell into some other "Linux/Unix born" 👻 editors, like Vi/Vim or Emacs, you normally will only have 2 choice, endless of suffering or save yourself.
-![tab vs space comic](/img/posts/2016-09-07/2.png)
+![tab vs space comic](SO_space_makes_more_money_than_tab.jpg)
 
 ## Advantage vs Disadvantage
 

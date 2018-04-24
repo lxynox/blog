@@ -3,6 +3,7 @@ layout: "post"
 date: 2017-04-05
 title: Bottom Up
 category: "thinking"
+cover: "index.jpg"
 tags: [ "job hunting", "life thinking" ]
 ---
 

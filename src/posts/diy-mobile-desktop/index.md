@@ -3,6 +3,7 @@ layout: "post"
 date: 2016-11-15
 title: DIY mobile desktop
 category: "DIY"
+cover: "index.jpg"
 tags: [ "DIY", "iphone", "emoji" ]
 ---
 
@@ -14,7 +15,7 @@ an app. Have you ever thought of using *emoji* to be the only title of your orga
 
 # Screenshot
 
-![my iphone7 desktop](https://lxynox.github.io/gitcloud/files/img/blog/iphone-layout-update.PNG)
+![my iphone7 desktop](iphone-layout.png)
 
 # Bye
 

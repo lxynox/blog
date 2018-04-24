@@ -58,11 +58,19 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const postsFrom =  '/src/posts'
+    const postsRouteTo = '/blog' 
+
+    const value = createFilePath({ 
+      node, 
+      getNode,
+      basePath: path.join(__dirname, postsFrom)
+    }).toLowerCase()
+
     createNodeField({
       name: `slug`,
       node,
-      value,
+      value: path.join(postsRouteTo, value),
     })
   }
 }

@@ -3,12 +3,13 @@ layout: post
 date: 2016-09-09
 title:  "some words about vim"
 category: tech
+cover: "index.jpg"
 tags: ["vim", "text editor", "toolbox"]
 ---
 
 > Disclaimer: I am *NOT* a vim veteran for sure. This article ONLY represents personal flavour, thus has nothing to do with any official guides.
 
-![ vim logo ](/img/posts/2016-09-08/1.png)
+![vim logo](vim_logo.png)
 
 ### My editor adventure🛤
 
@@ -27,7 +28,7 @@ There is definitely some else on my Todo list:
 I switched to Vim half year ago, from Atom. I did know some very basic movements (like `h, l, j, k`) in vim, but it's just too much of pain of me to giving up something (consider tens of plugins i installed on Atom) that i'm already familiar with, and start totally from scratch. It was inspired by my instructor during my first internship, and as a result, he opens a new world for me.
 
 ### Vim is tough, yeah, it is!
-![ Learning curve of text editors ](/img/posts/2016-09-08/3.png)
+![Learning curve of text editors](text_editor_learning_curves.png)
 
 From the learning curve about we may easily find that most text editors (besides vim & emacs) have a relatively very smooth learning curve, it is also something most users would expect for - investing decent amount of time and then master it.
 
@@ -37,7 +38,7 @@ The high bar of using Vim is more obvious for beginners, unexperienced users hav
 
 But after several months of use, when some really handy plugins get installed, your vimrc becomes bloated and needs to be maintained, and you did a lot of mappings as shorthand for various commands, vim is still not easy at all. It might still be your daily routine to learn some new tricks and put them into practise.
 
-![ vim joke ](/img/posts/2016-09-08/2.png)
+![Can't quit vim after using it for 2 years](cant_quit_vim.png)
 
 It's obvious, even two years of researching can't promise you to be able to open and quit vim.😜
 
