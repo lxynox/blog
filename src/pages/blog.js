@@ -10,11 +10,13 @@ import Head from '../components/Head'
 class BlogPage extends React.Component {
   render() {
     return (
-      <div style={{
-        display: 'flex',
-        flexFlow: 'row wrap',
-        justifyContent: 'center'
-      }}>
+      <div
+        style={{
+          display: 'flex',
+          flexFlow: 'row wrap',
+          justifyContent: 'center',
+        }}
+      >
         <Head />
         {this.renderPosts()}
       </div>
@@ -28,7 +30,7 @@ class BlogPage extends React.Component {
       return (
         <div
           style={{
-            flex: '0 0 60%'
+            flex: '0 0 60%',
           }}
           key={node.fields.slug}
         >
@@ -36,26 +38,28 @@ class BlogPage extends React.Component {
             <Card.Title>
               <Link
                 style={{
-                  fontFamily: '\'Press Start 2P\', cursive',
+                  fontFamily: "'Press Start 2P', cursive",
                   textDecoration: 'none',
                 }}
                 to={node.fields.slug}
               >
                 {title}
               </Link>
-              <p style={{ paddingTop: '1rem' }}><date>{node.frontmatter.date}</date></p>
+              <p style={{ paddingTop: '1rem' }}>
+                <date>{node.frontmatter.date}</date>
+              </p>
             </Card.Title>
             <Card.Media>
-              <Img
-                alt="cover image"
-                sizes={imgSrc}
-              />
+              <Img alt="cover image" sizes={imgSrc} />
             </Card.Media>
             <Card.Actions>
-              <p style={{
-                fontFamily: '\'Farsan\'',
-                fontSize: '1.2em'
-              }} dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+              <p
+                style={{
+                  fontFamily: "'Farsan'",
+                  fontSize: '1.2em',
+                }}
+                dangerouslySetInnerHTML={{ __html: node.excerpt }}
+              />
             </Card.Actions>
           </Card>
         </div>
@@ -73,7 +77,7 @@ export const blogQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: {fields: [frontmatter___date], order: ASC}) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }) {
       edges {
         node {
           excerpt

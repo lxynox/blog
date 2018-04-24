@@ -3,6 +3,8 @@ import Link from 'gatsby-link'
 import { Container } from 'react-responsive-grid'
 
 import { rhythm, scale } from '../utils/typography'
+import 'prismjs/themes/prism-coy.css'
+// import './index.css'
 
 class Template extends React.Component {
   render() {

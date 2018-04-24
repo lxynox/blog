@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import Bio from '../components/Bio'
 import Head from '../components/Head'
 import { rhythm, scale } from '../utils/typography'
+import './blog-post.css'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -20,15 +21,18 @@ class BlogPostTemplate extends React.Component {
             ...scale(-1 / 5),
             display: 'block',
             marginBottom: rhythm(1),
-            marginTop: rhythm(-1)
+            marginTop: rhythm(-1),
           }}
         >
           {post.frontmatter.date}
         </p>
-        <div style={{
-          fontFamily: 'Roboto, sans-serif',
-          fontSize: '1.5em'
-        }} dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div
+          style={{
+            fontFamily: 'Spectral, serif',
+            fontSize: '1.5em',
+          }}
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
         <hr
           style={{
             marginBottom: rhythm(1),
