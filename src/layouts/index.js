@@ -1,10 +1,32 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { Container } from 'react-responsive-grid'
+import styled from 'styled-components'
+import { injectGlobal } from 'styled-components'
+import bgUrl from './bg.jpeg'
+import './styles.css'
 
-import { rhythm, scale } from '../utils/typography'
-import 'prismjs/themes/prism-coy.css'
-// import './index.css'
+injectGlobal`
+  :root {
+    --red: palevioletred;
+    --green: darkseagreen;
+    --gray: lavender;
+    --white: white;
+  }
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100%;
+    background: url(${bgUrl});
+  }
+`
+
+const Container = styled.div`
+  margin: 5rem auto;
+  width: 80vw;
+  max-width: 64rem;
+`
 
 class Template extends React.Component {
   render() {
@@ -12,16 +34,10 @@ class Template extends React.Component {
     let header
 
     let rootPath = `/`
-    if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
-      rootPath = __PATH_PREFIX__ + `/`
-    }
+    if (__PREFIX_PATHS__) rootPath = __PATH_PREFIX__ + `/`
 
     return (
-      <Container
-        style={{
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
+      <Container>
         {header}
         {children()}
       </Container>

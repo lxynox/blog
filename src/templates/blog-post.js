@@ -4,7 +4,6 @@ import Link from 'gatsby-link'
 import Bio from '../components/Bio'
 import Head from '../components/Head'
 import { rhythm, scale } from '../utils/typography'
-import './blog-post.css'
 
 class BlogPostTemplate extends React.Component {
   render() {

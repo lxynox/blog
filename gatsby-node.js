@@ -2,6 +2,18 @@ const _ = require('lodash')
 const Promise = require('bluebird')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
+
+exports.modifyWebpackConfig = ({ config, stage }) => {
+  switch (stage) {
+    case 'develop':
+    case 'build-css':
+    case 'build-javascript':
+    case 'build-html':
+    default:
+  }
+  return config
+}
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators
@@ -12,7 +24,10 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       graphql(
         `
           {
-            allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 1000) {
+            allMarkdownRemark(
+              sort: { fields: [frontmatter___date], order: DESC }
+              limit: 1000
+            ) {
               edges {
                 node {
                   fields {
@@ -33,11 +48,12 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         }
 
         // Create blog posts pages.
-        const posts = result.data.allMarkdownRemark.edges;
+        const posts = result.data.allMarkdownRemark.edges
 
         _.each(posts, (post, index) => {
-          const previous = index === posts.length - 1 ? null : posts[index + 1].node;
-          const next = index === 0 ? null : posts[index - 1].node;
+          const previous =
+            index === posts.length - 1 ? null : posts[index + 1].node
+          const next = index === 0 ? null : posts[index - 1].node
 
           createPage({
             path: post.node.fields.slug,
@@ -58,13 +74,13 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators
 
   if (node.internal.type === `MarkdownRemark`) {
-    const postsFrom =  '/src/posts'
-    const postsRouteTo = '/blog' 
+    const postsFrom = '/src/posts'
+    const postsRouteTo = '/blog'
 
-    const value = createFilePath({ 
-      node, 
+    const value = createFilePath({
+      node,
       getNode,
-      basePath: path.join(__dirname, postsFrom)
+      basePath: path.join(__dirname, postsFrom),
     }).toLowerCase()
 
     createNodeField({

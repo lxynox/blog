@@ -3,66 +3,84 @@ import Link from 'gatsby-link'
 import Img from 'gatsby-image'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-import { List } from 'react-content-loader'
+import styled from 'styled-components'
+import Trianglify from 'trianglify'
 import Card from '../components/Card'
 import Head from '../components/Head'
+
+const Container = styled.div`
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  @media (max-width: 48rem) {
+    flex-flow: column;
+  }
+`
+
+const Background = styled.div`
+  background: url(${props => props.png}) no-repeat;
+`
+
+const StyledCard = styled(Card)``
+
+const PostItem = styled.div`
+  margin-top: 5rem;
+  max-width: 40rem;
+  @media (max-width: 48rem) {
+    margin-top: 2rem;
+  }
+`
 
 class BlogPage extends React.Component {
   render() {
     return (
-      <div
-        style={{
-          display: 'flex',
-          flexFlow: 'row wrap',
-          justifyContent: 'center',
-        }}
-      >
+      <Container>
         <Head />
         {this.renderPosts()}
-      </div>
+      </Container>
     )
   }
+
   renderPosts() {
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
     return posts.map(({ node }) => {
       const title = get(node, 'frontmatter.title') || node.fields.slug
       const imgSrc = get(node, 'frontmatter.cover.childImageSharp.sizes')
+      // http://qrohlf.com/trianglify/
+      const png = Trianglify({ width: 1024, height: 200 }).png()
       return (
-        <div
-          style={{
-            flex: '0 0 60%',
-          }}
-          key={node.fields.slug}
-        >
-          <Card>
-            <Card.Title>
-              <Link
-                style={{
-                  fontFamily: "'Press Start 2P', cursive",
-                  textDecoration: 'none',
-                }}
-                to={node.fields.slug}
-              >
-                {title}
-              </Link>
-              <p style={{ paddingTop: '1rem' }}>
-                <date>{node.frontmatter.date}</date>
-              </p>
-            </Card.Title>
-            <Card.Media>
-              <Img alt="cover image" sizes={imgSrc} />
-            </Card.Media>
-            <Card.Actions>
-              <p
-                style={{
-                  fontFamily: "'Farsan'",
-                  fontSize: '1.2em',
-                }}
-                dangerouslySetInnerHTML={{ __html: node.excerpt }}
-              />
-            </Card.Actions>
-          </Card>
-        </div>
+        <PostItem key={node.fields.slug}>
+          <StyledCard>
+            <Background png={png}>
+              <Card.Title>
+                <Link
+                  style={{
+                    fontFamily: "'Press Start 2P', cursive",
+                    textDecoration: 'none',
+                  }}
+                  to={node.fields.slug}
+                >
+                  {title}
+                </Link>
+                <p style={{ fontWeight: 600, paddingTop: '1rem' }}>
+                  <date>{node.frontmatter.date}</date>
+                </p>
+              </Card.Title>
+              <Card.Media>
+                <Img alt="cover image" sizes={imgSrc} />
+              </Card.Media>
+              <Card.Actions>
+                <p
+                  style={{
+                    fontFamily: "'Farsan'",
+                    fontSize: '1.2em',
+                  }}
+                  dangerouslySetInnerHTML={{ __html: node.excerpt }}
+                />
+              </Card.Actions>
+            </Background>
+          </StyledCard>
+        </PostItem>
       )
     })
   }

@@ -1,34 +1,40 @@
 import React from 'react'
-
-// Import typefaces
 import 'typeface-montserrat'
 import 'typeface-merriweather'
-
+import styled from 'styled-components'
 import profilePic from '../assets/images/profile.jpg'
-import { rhythm } from '../utils/typography'
 
-const Bio = () => ( 
-  <div
-    style={{
-      display: 'flex',
-        marginBottom: rhythm(2.5),
-    }}
-  >
-    <img
-      src={profilePic}
-      alt='Fat panda'
-      style={{
-        marginRight: rhythm(1 / 2),
-        marginBottom: 0,
-        width: rhythm(2),
-        height: rhythm(2),
-        borderRadius: '100%'
+const Image = styled.img`
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+`
+
+const Text = styled.p`
+  color: var(--green);
+  font-size: 2rem;
+`
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 48rem) {
+    flex-direction: column;
+  }
+`
+
+const Bio = () => (
+  <Container>
+    <Image src={profilePic} alt="Fat panda" />
+    <Text
+      dangerouslySetInnerHTML={{
+        __html: `📝 from lxynox`,
       }}
     />
-    <p>Hey this is Allen!</p>
-  </div>
+  </Container>
 )
 
 export default Bio
-
-
