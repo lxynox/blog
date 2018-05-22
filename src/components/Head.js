@@ -9,6 +9,7 @@ export default function Head({ title }) {
       <title>{title}</title>
       <TypographyStyle typography={typography} />
       <GoogleFont typography={typography} />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.1.0/trianglify.min.js"></script>
     </Helmet>
   )
 }

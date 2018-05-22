@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 import { injectGlobal } from 'styled-components'
 import bgUrl from './bg.jpeg'
+import 'prismjs/themes/prism.css';
 import './styles.css'
 
 injectGlobal`

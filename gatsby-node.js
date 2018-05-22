@@ -4,14 +4,9 @@ const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
-exports.modifyWebpackConfig = ({ config, stage }) => {
-  switch (stage) {
-    case 'develop':
-    case 'build-css':
-    case 'build-javascript':
-    case 'build-html':
-    default:
-  }
+exports.modifyWebpackConfig = function({ config, stage }) {
+  if (stage === 'build-html') {} 
+
   return config
 }
 
@@ -75,7 +70,7 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const postsFrom = '/src/posts'
-    const postsRouteTo = '/blog'
+    const postsRouteTo = '/'
 
     const value = createFilePath({
       node,
