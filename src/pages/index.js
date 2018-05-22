@@ -18,10 +18,15 @@ const Container = styled.div`
 `
 
 const Background = styled.div`
+  border-radius: .25rem;
   background: url(${props => props.png}) no-repeat;
 `
 
-const StyledCard = styled(Card)``
+const StyledCard = styled(Card)`
+  border-radius: .25rem;
+  border: none;
+  box-shadow: 0 .5rem 1rem rgba(50,50,93,.1),0 .25rem .5rem rgba(0,0,0,.08);
+`
 
 const PostItem = styled.div`
   margin-top: 5rem;
