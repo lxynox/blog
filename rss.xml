@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[Personal blog powered by Gatsby]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 22 May 2018 14:30:29 GMT</lastBuildDate><item><title><![CDATA[Bottom Up]]></title><description><![CDATA[Background I’ve been looking for a new job for quite while, it’s not as smooth as i was first expected. In fact, it’s way worse than i could…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//blog/bottom-up/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//blog/bottom-up/</guid><pubDate>Wed, 05 Apr 2017 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Background&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[Personal blog powered by Gatsby]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 22 May 2018 14:34:34 GMT</lastBuildDate><item><title><![CDATA[Bottom Up]]></title><description><![CDATA[Background I’ve been looking for a new job for quite while, it’s not as smooth as i was first expected. In fact, it’s way worse than i could…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//blog/bottom-up/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//blog/bottom-up/</guid><pubDate>Wed, 05 Apr 2017 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Background&lt;/h1&gt;
 &lt;p&gt;I’ve been looking for a new job for quite while, it’s not as smooth as i was first expected. In fact, it’s way worse than i could imagine,
 and might be another one of the best lessons i’ve learned so far.&lt;/p&gt;
 &lt;h1&gt;Reason&lt;/h1&gt;
@@ -24,7 +24,7 @@ an app. Have you ever thought of using &lt;em&gt;emoji&lt;/em&gt; to be the only
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/iphone-layout-66a226519451d1c521a067d2448afd27-79f20.png&quot;
+    href=&quot;/blog/static/iphone-layout-66a226519451d1c521a067d2448afd27-79f20.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -43,12 +43,12 @@ an app. Have you ever thought of using &lt;em&gt;emoji&lt;/em&gt; to be the only
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;my iphone7 desktop&quot;
         title=&quot;&quot;
-        src=&quot;/static/iphone-layout-66a226519451d1c521a067d2448afd27-fb8a0.png&quot;
-        srcset=&quot;/static/iphone-layout-66a226519451d1c521a067d2448afd27-1a291.png 148w,
-/static/iphone-layout-66a226519451d1c521a067d2448afd27-2bc4a.png 295w,
-/static/iphone-layout-66a226519451d1c521a067d2448afd27-fb8a0.png 590w,
-/static/iphone-layout-66a226519451d1c521a067d2448afd27-526de.png 885w,
-/static/iphone-layout-66a226519451d1c521a067d2448afd27-79f20.png 966w&quot;
+        src=&quot;/blog/static/iphone-layout-66a226519451d1c521a067d2448afd27-fb8a0.png&quot;
+        srcset=&quot;/blog/static/iphone-layout-66a226519451d1c521a067d2448afd27-1a291.png 148w,
+/blog/static/iphone-layout-66a226519451d1c521a067d2448afd27-2bc4a.png 295w,
+/blog/static/iphone-layout-66a226519451d1c521a067d2448afd27-fb8a0.png 590w,
+/blog/static/iphone-layout-66a226519451d1c521a067d2448afd27-526de.png 885w,
+/blog/static/iphone-layout-66a226519451d1c521a067d2448afd27-79f20.png 966w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -64,7 +64,7 @@ an app. Have you ever thought of using &lt;em&gt;emoji&lt;/em&gt; to be the only
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/vim_logo-5afd8c8126e56bde7b9814480e3c489b-7ccc8.png&quot;
+    href=&quot;/blog/static/vim_logo-5afd8c8126e56bde7b9814480e3c489b-7ccc8.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -83,11 +83,11 @@ an app. Have you ever thought of using &lt;em&gt;emoji&lt;/em&gt; to be the only
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;vim logo&quot;
         title=&quot;&quot;
-        src=&quot;/static/vim_logo-5afd8c8126e56bde7b9814480e3c489b-fb8a0.png&quot;
-        srcset=&quot;/static/vim_logo-5afd8c8126e56bde7b9814480e3c489b-1a291.png 148w,
-/static/vim_logo-5afd8c8126e56bde7b9814480e3c489b-2bc4a.png 295w,
-/static/vim_logo-5afd8c8126e56bde7b9814480e3c489b-fb8a0.png 590w,
-/static/vim_logo-5afd8c8126e56bde7b9814480e3c489b-7ccc8.png 605w&quot;
+        src=&quot;/blog/static/vim_logo-5afd8c8126e56bde7b9814480e3c489b-fb8a0.png&quot;
+        srcset=&quot;/blog/static/vim_logo-5afd8c8126e56bde7b9814480e3c489b-1a291.png 148w,
+/blog/static/vim_logo-5afd8c8126e56bde7b9814480e3c489b-2bc4a.png 295w,
+/blog/static/vim_logo-5afd8c8126e56bde7b9814480e3c489b-fb8a0.png 590w,
+/blog/static/vim_logo-5afd8c8126e56bde7b9814480e3c489b-7ccc8.png 605w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -113,7 +113,7 @@ an app. Have you ever thought of using &lt;em&gt;emoji&lt;/em&gt; to be the only
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/text_editor_learning_curves-4d36090a1208aa460a5623019d696169-d9514.png&quot;
+    href=&quot;/blog/static/text_editor_learning_curves-4d36090a1208aa460a5623019d696169-d9514.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -132,11 +132,11 @@ an app. Have you ever thought of using &lt;em&gt;emoji&lt;/em&gt; to be the only
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Learning curve of text editors&quot;
         title=&quot;&quot;
-        src=&quot;/static/text_editor_learning_curves-4d36090a1208aa460a5623019d696169-fb8a0.png&quot;
-        srcset=&quot;/static/text_editor_learning_curves-4d36090a1208aa460a5623019d696169-1a291.png 148w,
-/static/text_editor_learning_curves-4d36090a1208aa460a5623019d696169-2bc4a.png 295w,
-/static/text_editor_learning_curves-4d36090a1208aa460a5623019d696169-fb8a0.png 590w,
-/static/text_editor_learning_curves-4d36090a1208aa460a5623019d696169-d9514.png 600w&quot;
+        src=&quot;/blog/static/text_editor_learning_curves-4d36090a1208aa460a5623019d696169-fb8a0.png&quot;
+        srcset=&quot;/blog/static/text_editor_learning_curves-4d36090a1208aa460a5623019d696169-1a291.png 148w,
+/blog/static/text_editor_learning_curves-4d36090a1208aa460a5623019d696169-2bc4a.png 295w,
+/blog/static/text_editor_learning_curves-4d36090a1208aa460a5623019d696169-fb8a0.png 590w,
+/blog/static/text_editor_learning_curves-4d36090a1208aa460a5623019d696169-d9514.png 600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -151,7 +151,7 @@ an app. Have you ever thought of using &lt;em&gt;emoji&lt;/em&gt; to be the only
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/cant_quit_vim-0a7a70919bd8e2cb5369c0a4ef2a6946-64e79.png&quot;
+    href=&quot;/blog/static/cant_quit_vim-0a7a70919bd8e2cb5369c0a4ef2a6946-64e79.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -170,11 +170,11 @@ an app. Have you ever thought of using &lt;em&gt;emoji&lt;/em&gt; to be the only
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Can&apos;t quit vim after using it for 2 years&quot;
         title=&quot;&quot;
-        src=&quot;/static/cant_quit_vim-0a7a70919bd8e2cb5369c0a4ef2a6946-fb8a0.png&quot;
-        srcset=&quot;/static/cant_quit_vim-0a7a70919bd8e2cb5369c0a4ef2a6946-1a291.png 148w,
-/static/cant_quit_vim-0a7a70919bd8e2cb5369c0a4ef2a6946-2bc4a.png 295w,
-/static/cant_quit_vim-0a7a70919bd8e2cb5369c0a4ef2a6946-fb8a0.png 590w,
-/static/cant_quit_vim-0a7a70919bd8e2cb5369c0a4ef2a6946-64e79.png 624w&quot;
+        src=&quot;/blog/static/cant_quit_vim-0a7a70919bd8e2cb5369c0a4ef2a6946-fb8a0.png&quot;
+        srcset=&quot;/blog/static/cant_quit_vim-0a7a70919bd8e2cb5369c0a4ef2a6946-1a291.png 148w,
+/blog/static/cant_quit_vim-0a7a70919bd8e2cb5369c0a4ef2a6946-2bc4a.png 295w,
+/blog/static/cant_quit_vim-0a7a70919bd8e2cb5369c0a4ef2a6946-fb8a0.png 590w,
+/blog/static/cant_quit_vim-0a7a70919bd8e2cb5369c0a4ef2a6946-64e79.png 624w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -218,7 +218,7 @@ an app. Have you ever thought of using &lt;em&gt;emoji&lt;/em&gt; to be the only
 &lt;p&gt;Another thing, is reading others vimrc and share yours(if possible) more often. There’s a good place to go, &lt;a href=&quot;http://dotfiles.github.io&quot;&gt; github dotfile &lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Space or Tab in Vim]]></title><description><![CDATA[Reason for this post I, personally, have been struggled with this issue for some time. I am kinda person who has a really poor memory, but i…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//blog/tab-vs-space/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//blog/tab-vs-space/</guid><pubDate>Thu, 08 Sep 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/tab_space_both-b0ce6378980200c63e82c9efb859a46f-4c2ec.png&quot;
+    href=&quot;/blog/static/tab_space_both-b0ce6378980200c63e82c9efb859a46f-4c2ec.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -237,13 +237,13 @@ an app. Have you ever thought of using &lt;em&gt;emoji&lt;/em&gt; to be the only
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;tab vs space sample&quot;
         title=&quot;&quot;
-        src=&quot;/static/tab_space_both-b0ce6378980200c63e82c9efb859a46f-fb8a0.png&quot;
-        srcset=&quot;/static/tab_space_both-b0ce6378980200c63e82c9efb859a46f-1a291.png 148w,
-/static/tab_space_both-b0ce6378980200c63e82c9efb859a46f-2bc4a.png 295w,
-/static/tab_space_both-b0ce6378980200c63e82c9efb859a46f-fb8a0.png 590w,
-/static/tab_space_both-b0ce6378980200c63e82c9efb859a46f-526de.png 885w,
-/static/tab_space_both-b0ce6378980200c63e82c9efb859a46f-fa2eb.png 1180w,
-/static/tab_space_both-b0ce6378980200c63e82c9efb859a46f-4c2ec.png 1765w&quot;
+        src=&quot;/blog/static/tab_space_both-b0ce6378980200c63e82c9efb859a46f-fb8a0.png&quot;
+        srcset=&quot;/blog/static/tab_space_both-b0ce6378980200c63e82c9efb859a46f-1a291.png 148w,
+/blog/static/tab_space_both-b0ce6378980200c63e82c9efb859a46f-2bc4a.png 295w,
+/blog/static/tab_space_both-b0ce6378980200c63e82c9efb859a46f-fb8a0.png 590w,
+/blog/static/tab_space_both-b0ce6378980200c63e82c9efb859a46f-526de.png 885w,
+/blog/static/tab_space_both-b0ce6378980200c63e82c9efb859a46f-fa2eb.png 1180w,
+/blog/static/tab_space_both-b0ce6378980200c63e82c9efb859a46f-4c2ec.png 1765w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -257,7 +257,7 @@ an app. Have you ever thought of using &lt;em&gt;emoji&lt;/em&gt; to be the only
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/SO_space_makes_more_money_than_tab-5f70f594acae9b09f0f7098321ee2850-5dbe3.jpg&quot;
+    href=&quot;/blog/static/SO_space_makes_more_money_than_tab-5f70f594acae9b09f0f7098321ee2850-5dbe3.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -276,11 +276,11 @@ an app. Have you ever thought of using &lt;em&gt;emoji&lt;/em&gt; to be the only
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;tab vs space comic&quot;
         title=&quot;&quot;
-        src=&quot;/static/SO_space_makes_more_money_than_tab-5f70f594acae9b09f0f7098321ee2850-f8fb9.jpg&quot;
-        srcset=&quot;/static/SO_space_makes_more_money_than_tab-5f70f594acae9b09f0f7098321ee2850-e8976.jpg 148w,
-/static/SO_space_makes_more_money_than_tab-5f70f594acae9b09f0f7098321ee2850-63df2.jpg 295w,
-/static/SO_space_makes_more_money_than_tab-5f70f594acae9b09f0f7098321ee2850-f8fb9.jpg 590w,
-/static/SO_space_makes_more_money_than_tab-5f70f594acae9b09f0f7098321ee2850-5dbe3.jpg 719w&quot;
+        src=&quot;/blog/static/SO_space_makes_more_money_than_tab-5f70f594acae9b09f0f7098321ee2850-f8fb9.jpg&quot;
+        srcset=&quot;/blog/static/SO_space_makes_more_money_than_tab-5f70f594acae9b09f0f7098321ee2850-e8976.jpg 148w,
+/blog/static/SO_space_makes_more_money_than_tab-5f70f594acae9b09f0f7098321ee2850-63df2.jpg 295w,
+/blog/static/SO_space_makes_more_money_than_tab-5f70f594acae9b09f0f7098321ee2850-f8fb9.jpg 590w,
+/blog/static/SO_space_makes_more_money_than_tab-5f70f594acae9b09f0f7098321ee2850-5dbe3.jpg 719w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -359,7 +359,7 @@ an app. Have you ever thought of using &lt;em&gt;emoji&lt;/em&gt; to be the only
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/search_preference-69eb3f05c66f600dc679dd28edbac671-aac0b.png&quot;
+    href=&quot;/blog/static/search_preference-69eb3f05c66f600dc679dd28edbac671-aac0b.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -378,14 +378,14 @@ an app. Have you ever thought of using &lt;em&gt;emoji&lt;/em&gt; to be the only
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot; alfred search preference capture &quot;
         title=&quot;&quot;
-        src=&quot;/static/search_preference-69eb3f05c66f600dc679dd28edbac671-fb8a0.png&quot;
-        srcset=&quot;/static/search_preference-69eb3f05c66f600dc679dd28edbac671-1a291.png 148w,
-/static/search_preference-69eb3f05c66f600dc679dd28edbac671-2bc4a.png 295w,
-/static/search_preference-69eb3f05c66f600dc679dd28edbac671-fb8a0.png 590w,
-/static/search_preference-69eb3f05c66f600dc679dd28edbac671-526de.png 885w,
-/static/search_preference-69eb3f05c66f600dc679dd28edbac671-fa2eb.png 1180w,
-/static/search_preference-69eb3f05c66f600dc679dd28edbac671-08f6a.png 1770w,
-/static/search_preference-69eb3f05c66f600dc679dd28edbac671-aac0b.png 1962w&quot;
+        src=&quot;/blog/static/search_preference-69eb3f05c66f600dc679dd28edbac671-fb8a0.png&quot;
+        srcset=&quot;/blog/static/search_preference-69eb3f05c66f600dc679dd28edbac671-1a291.png 148w,
+/blog/static/search_preference-69eb3f05c66f600dc679dd28edbac671-2bc4a.png 295w,
+/blog/static/search_preference-69eb3f05c66f600dc679dd28edbac671-fb8a0.png 590w,
+/blog/static/search_preference-69eb3f05c66f600dc679dd28edbac671-526de.png 885w,
+/blog/static/search_preference-69eb3f05c66f600dc679dd28edbac671-fa2eb.png 1180w,
+/blog/static/search_preference-69eb3f05c66f600dc679dd28edbac671-08f6a.png 1770w,
+/blog/static/search_preference-69eb3f05c66f600dc679dd28edbac671-aac0b.png 1962w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -396,7 +396,7 @@ an app. Have you ever thought of using &lt;em&gt;emoji&lt;/em&gt; to be the only
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/spotlight_preference-e51f4aeb6cedcf4d5d4d35506592a854-35c89.png&quot;
+    href=&quot;/blog/static/spotlight_preference-e51f4aeb6cedcf4d5d4d35506592a854-35c89.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -415,13 +415,13 @@ an app. Have you ever thought of using &lt;em&gt;emoji&lt;/em&gt; to be the only
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot; spolight preference capture &quot;
         title=&quot;&quot;
-        src=&quot;/static/spotlight_preference-e51f4aeb6cedcf4d5d4d35506592a854-fb8a0.png&quot;
-        srcset=&quot;/static/spotlight_preference-e51f4aeb6cedcf4d5d4d35506592a854-1a291.png 148w,
-/static/spotlight_preference-e51f4aeb6cedcf4d5d4d35506592a854-2bc4a.png 295w,
-/static/spotlight_preference-e51f4aeb6cedcf4d5d4d35506592a854-fb8a0.png 590w,
-/static/spotlight_preference-e51f4aeb6cedcf4d5d4d35506592a854-526de.png 885w,
-/static/spotlight_preference-e51f4aeb6cedcf4d5d4d35506592a854-fa2eb.png 1180w,
-/static/spotlight_preference-e51f4aeb6cedcf4d5d4d35506592a854-35c89.png 1332w&quot;
+        src=&quot;/blog/static/spotlight_preference-e51f4aeb6cedcf4d5d4d35506592a854-fb8a0.png&quot;
+        srcset=&quot;/blog/static/spotlight_preference-e51f4aeb6cedcf4d5d4d35506592a854-1a291.png 148w,
+/blog/static/spotlight_preference-e51f4aeb6cedcf4d5d4d35506592a854-2bc4a.png 295w,
+/blog/static/spotlight_preference-e51f4aeb6cedcf4d5d4d35506592a854-fb8a0.png 590w,
+/blog/static/spotlight_preference-e51f4aeb6cedcf4d5d4d35506592a854-526de.png 885w,
+/blog/static/spotlight_preference-e51f4aeb6cedcf4d5d4d35506592a854-fa2eb.png 1180w,
+/blog/static/spotlight_preference-e51f4aeb6cedcf4d5d4d35506592a854-35c89.png 1332w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -435,7 +435,7 @@ From the above settings/preference of search page, we may find that both app giv
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/theme_preference-3df1df4f370286199f407b425d320062-47a7a.png&quot;
+    href=&quot;/blog/static/theme_preference-3df1df4f370286199f407b425d320062-47a7a.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -454,13 +454,13 @@ From the above settings/preference of search page, we may find that both app giv
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot; alfred themes preference capture &quot;
         title=&quot;&quot;
-        src=&quot;/static/theme_preference-3df1df4f370286199f407b425d320062-fb8a0.png&quot;
-        srcset=&quot;/static/theme_preference-3df1df4f370286199f407b425d320062-1a291.png 148w,
-/static/theme_preference-3df1df4f370286199f407b425d320062-2bc4a.png 295w,
-/static/theme_preference-3df1df4f370286199f407b425d320062-fb8a0.png 590w,
-/static/theme_preference-3df1df4f370286199f407b425d320062-526de.png 885w,
-/static/theme_preference-3df1df4f370286199f407b425d320062-fa2eb.png 1180w,
-/static/theme_preference-3df1df4f370286199f407b425d320062-47a7a.png 1680w&quot;
+        src=&quot;/blog/static/theme_preference-3df1df4f370286199f407b425d320062-fb8a0.png&quot;
+        srcset=&quot;/blog/static/theme_preference-3df1df4f370286199f407b425d320062-1a291.png 148w,
+/blog/static/theme_preference-3df1df4f370286199f407b425d320062-2bc4a.png 295w,
+/blog/static/theme_preference-3df1df4f370286199f407b425d320062-fb8a0.png 590w,
+/blog/static/theme_preference-3df1df4f370286199f407b425d320062-526de.png 885w,
+/blog/static/theme_preference-3df1df4f370286199f407b425d320062-fa2eb.png 1180w,
+/blog/static/theme_preference-3df1df4f370286199f407b425d320062-47a7a.png 1680w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -475,7 +475,7 @@ By default, alfred will give you 5-6 default themes to choose from. But if you�
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/remote-bd9fff0ac186970f23c0125559b3a986-98366.png&quot;
+    href=&quot;/blog/static/remote-bd9fff0ac186970f23c0125559b3a986-98366.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -494,12 +494,12 @@ By default, alfred will give you 5-6 default themes to choose from. But if you�
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot; Remote iOS app capture &quot;
         title=&quot;&quot;
-        src=&quot;/static/remote-bd9fff0ac186970f23c0125559b3a986-fb8a0.png&quot;
-        srcset=&quot;/static/remote-bd9fff0ac186970f23c0125559b3a986-1a291.png 148w,
-/static/remote-bd9fff0ac186970f23c0125559b3a986-2bc4a.png 295w,
-/static/remote-bd9fff0ac186970f23c0125559b3a986-fb8a0.png 590w,
-/static/remote-bd9fff0ac186970f23c0125559b3a986-526de.png 885w,
-/static/remote-bd9fff0ac186970f23c0125559b3a986-98366.png 1004w&quot;
+        src=&quot;/blog/static/remote-bd9fff0ac186970f23c0125559b3a986-fb8a0.png&quot;
+        srcset=&quot;/blog/static/remote-bd9fff0ac186970f23c0125559b3a986-1a291.png 148w,
+/blog/static/remote-bd9fff0ac186970f23c0125559b3a986-2bc4a.png 295w,
+/blog/static/remote-bd9fff0ac186970f23c0125559b3a986-fb8a0.png 590w,
+/blog/static/remote-bd9fff0ac186970f23c0125559b3a986-526de.png 885w,
+/blog/static/remote-bd9fff0ac186970f23c0125559b3a986-98366.png 1004w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -513,7 +513,7 @@ Afred Remote is an iOS app running on obile dposts/evice and can be used to mana
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/weather_workflow-fe0161f5f85e984ed2a09689a1aed08f-e089a.png&quot;
+    href=&quot;/blog/static/weather_workflow-fe0161f5f85e984ed2a09689a1aed08f-e089a.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -532,12 +532,12 @@ Afred Remote is an iOS app running on obile dposts/evice and can be used to mana
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot; Weather workflow capture &quot;
         title=&quot;&quot;
-        src=&quot;/static/weather_workflow-fe0161f5f85e984ed2a09689a1aed08f-fb8a0.png&quot;
-        srcset=&quot;/static/weather_workflow-fe0161f5f85e984ed2a09689a1aed08f-1a291.png 148w,
-/static/weather_workflow-fe0161f5f85e984ed2a09689a1aed08f-2bc4a.png 295w,
-/static/weather_workflow-fe0161f5f85e984ed2a09689a1aed08f-fb8a0.png 590w,
-/static/weather_workflow-fe0161f5f85e984ed2a09689a1aed08f-526de.png 885w,
-/static/weather_workflow-fe0161f5f85e984ed2a09689a1aed08f-e089a.png 1152w&quot;
+        src=&quot;/blog/static/weather_workflow-fe0161f5f85e984ed2a09689a1aed08f-fb8a0.png&quot;
+        srcset=&quot;/blog/static/weather_workflow-fe0161f5f85e984ed2a09689a1aed08f-1a291.png 148w,
+/blog/static/weather_workflow-fe0161f5f85e984ed2a09689a1aed08f-2bc4a.png 295w,
+/blog/static/weather_workflow-fe0161f5f85e984ed2a09689a1aed08f-fb8a0.png 590w,
+/blog/static/weather_workflow-fe0161f5f85e984ed2a09689a1aed08f-526de.png 885w,
+/blog/static/weather_workflow-fe0161f5f85e984ed2a09689a1aed08f-e089a.png 1152w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -549,7 +549,7 @@ What does workflow mean？To me, it’s just the synonym of plugins / extensions
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/bookmark_workflow-b4c7df044ef2879e2f15d1db6be763cf-e089a.png&quot;
+    href=&quot;/blog/static/bookmark_workflow-b4c7df044ef2879e2f15d1db6be763cf-e089a.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -568,12 +568,12 @@ What does workflow mean？To me, it’s just the synonym of plugins / extensions
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot; Chrome Bookmark workflow capture &quot;
         title=&quot;&quot;
-        src=&quot;/static/bookmark_workflow-b4c7df044ef2879e2f15d1db6be763cf-fb8a0.png&quot;
-        srcset=&quot;/static/bookmark_workflow-b4c7df044ef2879e2f15d1db6be763cf-1a291.png 148w,
-/static/bookmark_workflow-b4c7df044ef2879e2f15d1db6be763cf-2bc4a.png 295w,
-/static/bookmark_workflow-b4c7df044ef2879e2f15d1db6be763cf-fb8a0.png 590w,
-/static/bookmark_workflow-b4c7df044ef2879e2f15d1db6be763cf-526de.png 885w,
-/static/bookmark_workflow-b4c7df044ef2879e2f15d1db6be763cf-e089a.png 1152w&quot;
+        src=&quot;/blog/static/bookmark_workflow-b4c7df044ef2879e2f15d1db6be763cf-fb8a0.png&quot;
+        srcset=&quot;/blog/static/bookmark_workflow-b4c7df044ef2879e2f15d1db6be763cf-1a291.png 148w,
+/blog/static/bookmark_workflow-b4c7df044ef2879e2f15d1db6be763cf-2bc4a.png 295w,
+/blog/static/bookmark_workflow-b4c7df044ef2879e2f15d1db6be763cf-fb8a0.png 590w,
+/blog/static/bookmark_workflow-b4c7df044ef2879e2f15d1db6be763cf-526de.png 885w,
+/blog/static/bookmark_workflow-b4c7df044ef2879e2f15d1db6be763cf-e089a.png 1152w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -585,7 +585,7 @@ Alfred did the similar thing, it built an ecosystem along with highly extensible
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/email_workflow-8e7773ffd71e835734607ac2d4a279cf-e588f.png&quot;
+    href=&quot;/blog/static/email_workflow-8e7773ffd71e835734607ac2d4a279cf-e588f.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -604,12 +604,12 @@ Alfred did the similar thing, it built an ecosystem along with highly extensible
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot; Email workflow capture &quot;
         title=&quot;&quot;
-        src=&quot;/static/email_workflow-8e7773ffd71e835734607ac2d4a279cf-fb8a0.png&quot;
-        srcset=&quot;/static/email_workflow-8e7773ffd71e835734607ac2d4a279cf-1a291.png 148w,
-/static/email_workflow-8e7773ffd71e835734607ac2d4a279cf-2bc4a.png 295w,
-/static/email_workflow-8e7773ffd71e835734607ac2d4a279cf-fb8a0.png 590w,
-/static/email_workflow-8e7773ffd71e835734607ac2d4a279cf-526de.png 885w,
-/static/email_workflow-8e7773ffd71e835734607ac2d4a279cf-e588f.png 1160w&quot;
+        src=&quot;/blog/static/email_workflow-8e7773ffd71e835734607ac2d4a279cf-fb8a0.png&quot;
+        srcset=&quot;/blog/static/email_workflow-8e7773ffd71e835734607ac2d4a279cf-1a291.png 148w,
+/blog/static/email_workflow-8e7773ffd71e835734607ac2d4a279cf-2bc4a.png 295w,
+/blog/static/email_workflow-8e7773ffd71e835734607ac2d4a279cf-fb8a0.png 590w,
+/blog/static/email_workflow-8e7773ffd71e835734607ac2d4a279cf-526de.png 885w,
+/blog/static/email_workflow-8e7773ffd71e835734607ac2d4a279cf-e588f.png 1160w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -630,7 +630,7 @@ Importantly, those workflows has community support, which makes them more robust
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/emoji_workflow-998c2bcd30ebd01de2781c06af15ef2f-5870d.png&quot;
+    href=&quot;/blog/static/emoji_workflow-998c2bcd30ebd01de2781c06af15ef2f-5870d.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -649,12 +649,12 @@ Importantly, those workflows has community support, which makes them more robust
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot; Emoji workflow capture &quot;
         title=&quot;&quot;
-        src=&quot;/static/emoji_workflow-998c2bcd30ebd01de2781c06af15ef2f-fb8a0.png&quot;
-        srcset=&quot;/static/emoji_workflow-998c2bcd30ebd01de2781c06af15ef2f-1a291.png 148w,
-/static/emoji_workflow-998c2bcd30ebd01de2781c06af15ef2f-2bc4a.png 295w,
-/static/emoji_workflow-998c2bcd30ebd01de2781c06af15ef2f-fb8a0.png 590w,
-/static/emoji_workflow-998c2bcd30ebd01de2781c06af15ef2f-526de.png 885w,
-/static/emoji_workflow-998c2bcd30ebd01de2781c06af15ef2f-5870d.png 1146w&quot;
+        src=&quot;/blog/static/emoji_workflow-998c2bcd30ebd01de2781c06af15ef2f-fb8a0.png&quot;
+        srcset=&quot;/blog/static/emoji_workflow-998c2bcd30ebd01de2781c06af15ef2f-1a291.png 148w,
+/blog/static/emoji_workflow-998c2bcd30ebd01de2781c06af15ef2f-2bc4a.png 295w,
+/blog/static/emoji_workflow-998c2bcd30ebd01de2781c06af15ef2f-fb8a0.png 590w,
+/blog/static/emoji_workflow-998c2bcd30ebd01de2781c06af15ef2f-526de.png 885w,
+/blog/static/emoji_workflow-998c2bcd30ebd01de2781c06af15ef2f-5870d.png 1146w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
