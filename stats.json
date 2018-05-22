@@ -1,12 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-98fbad02f53991021016.js",
-      "component---src-pages-index-js-98fbad02f53991021016.js.map"
-    ],
-    "path---blog": [
-      "path---blog-b9bc31918809a28f9700.js",
-      "path---blog-b9bc31918809a28f9700.js.map"
+      "component---src-pages-index-js-0eecb4eb8671b8d03eb2.js",
+      "component---src-pages-index-js-0eecb4eb8671b8d03eb2.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -37,8 +33,8 @@
       "path---blog-why-alfred-90c1cb920dae42675076.js.map"
     ],
     "path---index": [
-      "path---index-a0e39f21c11f6a62c5ab.js",
-      "path---index-a0e39f21c11f6a62c5ab.js.map"
+      "path---index-b9bc31918809a28f9700.js",
+      "path---index-b9bc31918809a28f9700.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -50,6 +46,10 @@
       "commons-ced2cf8cf35cd60fd22f.js.map",
       "build-js-styles.css.map"
     ],
+    "path---index-backup": [
+      "path---index-backup-a0e39f21c11f6a62c5ab.js",
+      "path---index-backup-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
@@ -58,18 +58,18 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-blog-js": [
-      "component---src-pages-blog-js-0fd7578d7f97b43ee115.js",
-      "component---src-pages-blog-js-0fd7578d7f97b43ee115.js.map"
-    ],
     "path---blog-some-words-about-vim": [
       "path---blog-some-words-about-vim-6abe98df7b5aea7a2cfe.js",
       "path---blog-some-words-about-vim-6abe98df7b5aea7a2cfe.js.map"
     ],
+    "component---src-pages-index-backup-js": [
+      "component---src-pages-index-backup-js-19d50d66ab70d79ed139.js",
+      "component---src-pages-index-backup-js-19d50d66ab70d79ed139.js.map"
+    ],
     "app": [
-      "app-cc5046e0f64635430e84.js",
+      "app-b36583ec2719dddd0709.js",
       "build-js-styles.css",
-      "app-cc5046e0f64635430e84.js.map",
+      "app-b36583ec2719dddd0709.js.map",
       "build-js-styles.css.map"
     ],
     "path---blog-diy-mobile-desktop": [
