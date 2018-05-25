@@ -1,12 +1,12 @@
 {
   "assetsByChunkName": {
-    "path---tab-vs-space": [
-      "path---tab-vs-space-98d6054ce2f39150f041.js",
-      "path---tab-vs-space-98d6054ce2f39150f041.js.map"
+    "path---why-alfred-readme": [
+      "path---why-alfred-readme-64882091e3b61327ace6.js",
+      "path---why-alfred-readme-64882091e3b61327ace6.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-7d673d813c4af4e4e5b8.js",
-      "component---src-pages-index-js-7d673d813c4af4e4e5b8.js.map"
+      "component---src-pages-index-js-1f9effa826f1f6fa8c8c.js",
+      "component---src-pages-index-js-1f9effa826f1f6fa8c8c.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -21,16 +21,16 @@
       "component---src-templates-blog-post-js-291ec38b9377713b94a1.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-9ba0783821d2adb1261d.js",
-      "component---src-layouts-index-js-9ba0783821d2adb1261d.js.map"
+      "component---src-layouts-index-js-2c6b656243541d29b2b3.js",
+      "component---src-layouts-index-js-2c6b656243541d29b2b3.js.map"
     ],
-    "path---diy-mobile-desktop": [
-      "path---diy-mobile-desktop-dca49ef9a91b1f7f0a97.js",
-      "path---diy-mobile-desktop-dca49ef9a91b1f7f0a97.js.map"
+    "path---tab-vs-space-readme": [
+      "path---tab-vs-space-readme-ae9e179933bf08a7c6f4.js",
+      "path---tab-vs-space-readme-ae9e179933bf08a7c6f4.js.map"
     ],
     "path---index": [
-      "path---index-a9ca654327f2f1362fbc.js",
-      "path---index-a9ca654327f2f1362fbc.js.map"
+      "path---index-589de3279623929f545b.js",
+      "path---index-589de3279623929f545b.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -46,10 +46,6 @@
       "path---index-backup-a0e39f21c11f6a62c5ab.js",
       "path---index-backup-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---why-alfred": [
-      "path---why-alfred-deea9d21bdc9ec93b154.js",
-      "path---why-alfred-deea9d21bdc9ec93b154.js.map"
-    ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
@@ -58,27 +54,31 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---bottom-up": [
-      "path---bottom-up-1673e46ffd75cd7aa7cb.js",
-      "path---bottom-up-1673e46ffd75cd7aa7cb.js.map"
-    ],
     "component---src-pages-index-backup-js": [
       "component---src-pages-index-backup-js-19d50d66ab70d79ed139.js",
       "component---src-pages-index-backup-js-19d50d66ab70d79ed139.js.map"
     ],
     "app": [
-      "app-6da1c3e34148572ea82f.js",
+      "app-571ae97ec5983f4c0089.js",
       "build-js-styles.css",
-      "app-6da1c3e34148572ea82f.js.map",
+      "app-571ae97ec5983f4c0089.js.map",
       "build-js-styles.css.map"
     ],
-    "path---some-words-about-vim": [
-      "path---some-words-about-vim-80ee6837765c8458187a.js",
-      "path---some-words-about-vim-80ee6837765c8458187a.js.map"
+    "path---some-words-about-vim-readme": [
+      "path---some-words-about-vim-readme-5b5091faf9ec53b3abec.js",
+      "path---some-words-about-vim-readme-5b5091faf9ec53b3abec.js.map"
+    ],
+    "path---bottom-up-readme": [
+      "path---bottom-up-readme-0e3cf59b44169cdb54b0.js",
+      "path---bottom-up-readme-0e3cf59b44169cdb54b0.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---diy-mobile-desktop-readme": [
+      "path---diy-mobile-desktop-readme-59586026bcde2d5b172e.js",
+      "path---diy-mobile-desktop-readme-59586026bcde2d5b172e.js.map"
     ]
   }
 }
