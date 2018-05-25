@@ -11,9 +11,11 @@ import Head from '../components/Head'
 const Container = styled.div`
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
-  @media (max-width: 48rem) {
+  justify-content: space-evenly;
+  align-items: stretch;
+  @media (max-width: 1023px) {
     flex-flow: column;
+    align-items: center;
   }
 `
 
@@ -23,15 +25,18 @@ const Background = styled.div`
 `
 
 const StyledCard = styled(Card)`
+  height: 100%;
   border-radius: .25rem;
   border: none;
   box-shadow: 0 .5rem 1rem rgba(50,50,93,.1),0 .25rem .5rem rgba(0,0,0,.08);
+  min-width: 30%;
 `
 
 const PostItem = styled.div`
+  flex: 0 40%;
   margin-top: 5rem;
-  max-width: 40rem;
-  @media (max-width: 48rem) {
+  max-width: 30rem;
+  @media (max-width: 1023px) {
     margin-top: 2rem;
   }
 `
@@ -39,10 +44,12 @@ const PostItem = styled.div`
 class BlogPage extends React.Component {
   render() {
     return (
-      <Container>
+      <div>
         <Head />
-        {this.renderPosts()}
-      </Container>
+        <Container>
+          {this.renderPosts()}
+        </Container>
+      </div>
     )
   }
 

@@ -17,7 +17,7 @@ const Header = styled.header`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  @media (max-width: 48rem) {
+  @media (max-width: 767px) {
     flex-direction: column;
   }
 `
