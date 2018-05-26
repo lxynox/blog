@@ -81,7 +81,7 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     createNodeField({
       name: `slug`,
       node,
-      value: path.join(postsRouteTo, value),
+      value: path.join(postsRouteTo, value).slice(0, value.indexOf('readme')),
     })
   }
 }
