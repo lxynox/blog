@@ -14,6 +14,8 @@ const Container = styled.div`
   justify-content: space-evenly;
   align-items: stretch;
   @media (max-width: 1023px) {
+    width: 80vw;
+    margin: auto;
     flex-flow: column;
     align-items: center;
   }
@@ -38,6 +40,9 @@ const PostItem = styled.div`
   max-width: 30rem;
   @media (max-width: 1023px) {
     margin-top: 2rem;
+    :last-child {
+      margin-bottom: 2rem;
+    }
   }
 `
 

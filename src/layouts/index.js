@@ -11,22 +11,19 @@ injectGlobal`
     --red: palevioletred;
     --green: darkseagreen;
     --gray: lavender;
-    --white: white;
+    --white: #fdfaf6;
   }
   * {
-    margin: 0;
     box-sizing: border-box;
   }
   html, body {
     height: 100%;
-    background: url(${bgUrl});
+    margin: 0;
   }
 `
 
 const Container = styled.div`
-  margin: 5rem auto;
-  width: 80vw;
-  max-width: 64rem;
+  background: url(${bgUrl});
 `
 
 class Template extends React.Component {
