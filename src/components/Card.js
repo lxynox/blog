@@ -26,20 +26,20 @@ const Footer = styled.footer`
   padding: 1rem 2rem;
 `
 
-function CardTitle({ className, children }) {
-  return <Header className={className}>{children}</Header>
+function CardTitle(props) {
+  return <Header {...props} />
 }
 
-function CardMedia({ className, children }) {
-  return <Section className={className}>{children}</Section>
+function CardMedia(props) {
+  return <Section {...props} />
 }
 
-function CardActions({ className, children }) {
-  return <Footer className={className}>{children}</Footer>
+function CardActions(props) {
+  return <Footer {...props} />
 }
 
-function Card({ className, children }) {
-  return <Article className={className}>{children}</Article>
+function Card(props) {
+  return <Article {...props} />
 }
 
 Card.Title = CardTitle
