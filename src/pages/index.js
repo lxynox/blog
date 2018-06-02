@@ -13,11 +13,13 @@ const Container = styled.div`
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: stretch;
+  padding-bottom: 5rem;
   @media (max-width: 1023px) {
     width: 80vw;
     margin: auto;
     flex-flow: column;
     align-items: center;
+    padding-bottom: 2rem;
   }
 `
 
@@ -36,13 +38,10 @@ const StyledCard = styled(Card)`
 
 const PostItem = styled.div`
   flex: 0 40%;
-  margin-top: 5rem;
   max-width: 30rem;
+  margin-top: 5rem;
   @media (max-width: 1023px) {
     margin-top: 2rem;
-    :last-child {
-      margin-bottom: 2rem;
-    }
   }
 `
 
