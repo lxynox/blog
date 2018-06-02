@@ -5,8 +5,8 @@
       "path---tab-vs-space-ac746588405ab68ff3d9.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-e50074d4b9e562fe0861.js",
-      "component---src-pages-index-js-e50074d4b9e562fe0861.js.map"
+      "component---src-pages-index-js-00145164b2579a1d57c8.js",
+      "component---src-pages-index-js-00145164b2579a1d57c8.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -17,8 +17,8 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-b47eb046096ae6d6e27c.js",
-      "component---src-templates-blog-post-js-b47eb046096ae6d6e27c.js.map"
+      "component---src-templates-blog-post-js-b992cd6d5b0d8660ab4f.js",
+      "component---src-templates-blog-post-js-b992cd6d5b0d8660ab4f.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-68a9240827213fb82da9.js",
@@ -37,14 +37,10 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-ced2cf8cf35cd60fd22f.js",
+      "commons-0c961af4250069caef0a.js",
       "build-js-styles.css",
-      "commons-ced2cf8cf35cd60fd22f.js.map",
+      "commons-0c961af4250069caef0a.js.map",
       "build-js-styles.css.map"
-    ],
-    "path---index-backup": [
-      "path---index-backup-a0e39f21c11f6a62c5ab.js",
-      "path---index-backup-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---why-alfred": [
       "path---why-alfred-d4e346902e9c0c2666f1.js",
@@ -58,14 +54,10 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-index-backup-js": [
-      "component---src-pages-index-backup-js-19d50d66ab70d79ed139.js",
-      "component---src-pages-index-backup-js-19d50d66ab70d79ed139.js.map"
-    ],
     "app": [
-      "app-d4fbc23266606a1b4a38.js",
+      "app-0431f6d12124c738a9da.js",
       "build-js-styles.css",
-      "app-d4fbc23266606a1b4a38.js.map",
+      "app-0431f6d12124c738a9da.js.map",
       "build-js-styles.css.map"
     ],
     "path---some-words-about-vim": [
