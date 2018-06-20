@@ -11,7 +11,7 @@ import Head from '../components/Head'
 const Container = styled.div`
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: stretch;
   padding-bottom: 5rem;
   @media (max-width: 1023px) {
