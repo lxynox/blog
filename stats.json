@@ -1,12 +1,12 @@
 {
   "assetsByChunkName": {
     "path---tab-vs-space": [
-      "path---tab-vs-space-ac746588405ab68ff3d9.js",
-      "path---tab-vs-space-ac746588405ab68ff3d9.js.map"
+      "path---tab-vs-space-e70cde5fb2e916261b4f.js",
+      "path---tab-vs-space-e70cde5fb2e916261b4f.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-00145164b2579a1d57c8.js",
-      "component---src-pages-index-js-00145164b2579a1d57c8.js.map"
+      "component---src-pages-index-js-241b0acf3d3ae271b999.js",
+      "component---src-pages-index-js-241b0acf3d3ae271b999.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -21,12 +21,12 @@
       "component---src-templates-blog-post-js-b992cd6d5b0d8660ab4f.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-68a9240827213fb82da9.js",
-      "component---src-layouts-index-js-68a9240827213fb82da9.js.map"
+      "component---src-layouts-index-js-bb7629bc610f39a0db68.js",
+      "component---src-layouts-index-js-bb7629bc610f39a0db68.js.map"
     ],
     "path---diy-mobile-desktop": [
-      "path---diy-mobile-desktop-515ffa58fec3c4c79c3e.js",
-      "path---diy-mobile-desktop-515ffa58fec3c4c79c3e.js.map"
+      "path---diy-mobile-desktop-c5a360ee84584de7eeae.js",
+      "path---diy-mobile-desktop-c5a360ee84584de7eeae.js.map"
     ],
     "path---index": [
       "path---index-a21293fc7a2fcbda0512.js",
@@ -43,8 +43,8 @@
       "build-js-styles.css.map"
     ],
     "path---why-alfred": [
-      "path---why-alfred-d4e346902e9c0c2666f1.js",
-      "path---why-alfred-d4e346902e9c0c2666f1.js.map"
+      "path---why-alfred-9a2cb6e679fcee01154a.js",
+      "path---why-alfred-9a2cb6e679fcee01154a.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -55,14 +55,14 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-0431f6d12124c738a9da.js",
+      "app-1c9211ed96cb72c51c75.js",
       "build-js-styles.css",
-      "app-0431f6d12124c738a9da.js.map",
+      "app-1c9211ed96cb72c51c75.js.map",
       "build-js-styles.css.map"
     ],
     "path---some-words-about-vim": [
-      "path---some-words-about-vim-9676ffb5473847b546de.js",
-      "path---some-words-about-vim-9676ffb5473847b546de.js.map"
+      "path---some-words-about-vim-2d1f876d840dcd5b6403.js",
+      "path---some-words-about-vim-2d1f876d840dcd5b6403.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
